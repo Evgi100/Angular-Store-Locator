@@ -17,14 +17,14 @@
     <div class="col-md-3 card ">
         <div  *ngFor="let storeElement of stores;let i=index">{{storeElement.name}}
             <ul class="list-group" *ngFor="let branch of storeElement.branches">
-                <li class="list-group-item" >{{branch.location}}</li>
+                <li  class="list-group-item" >{{branch.location}}</li>
                 <!-- <li  >{{branch.name}}</li> -->
             </ul>
         </div>
     </div>
     <div class="col-md-9 ">
         <agm-map [latitude]="latitude " [longitude]="longitude " [zoom]="zoom " (mapClick)="onMapClick($event) ">
-            <agm-marker *ngIf="locationChosen " [latitude]="latitude " [longitude]="longitude ">
+            <agm-marker  *ngIf="locationChosen " [latitude]="latitude " [longitude]="longitude ">
                 <agm-info-window></agm-info-window>
             </agm-marker>
         </agm-map>

@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpModule }      from '@angular/http';
 import {AgmCoreModule} from '@agm/core';
 import{StoresService} from './stores.service'
+import { HaversineService } from "ng2-haversine";
 
 import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -22,7 +23,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
       libraries:["places" ]
     })
   ],
-  providers:[StoresService],
+  providers:[StoresService,HaversineService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

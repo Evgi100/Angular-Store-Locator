@@ -6,6 +6,8 @@ import { FormControl } from '@angular/forms'
 import { ElementRef } from '@angular/core';
 import { MapsAPILoader } from '@agm/core';
 import { } from 'googlemaps';
+import 'rxjs/add/operator/map';
+import { HaversineService, GeoCoord } from "ng2-haversine";
 
 @Component({
   selector: 'app-root',
@@ -26,7 +28,8 @@ export class AppComponent implements OnInit {
   public searchElementRef: ElementRef
 
 
-  constructor(private storeService: StoresService, private mapsAPILoader: MapsAPILoader, private ngZone: NgZone) { }
+  constructor(private storeService: StoresService,
+    private mapsAPILoader: MapsAPILoader, private ngZone: NgZone, private haversineService: HaversineService) { }
 
   ngOnInit() {
     this.zoom = 13;
@@ -57,17 +60,25 @@ export class AppComponent implements OnInit {
     });
   }
 
-  onMapClick(event) {
-    this.latitude = event.coords.lat;
-    this.longitude = event.coords.lng;
+  onMapClick($event) {
+    this.latitude = $event.coords.lat;
+    this.longitude = $event.coords.lng;
     this.locationChosen = true;
+
   }
 
   onSubmit() {
-    // this.storeService.fetchStores();
     this.storeService.getStores().subscribe((data) => {
+      
+      data.chains.map((item) => {
+        console.log(item)
+        console.log(item.latitude);
+        console.log(item.longitude)
+      });
+
       this.stores = data.chains;
     });
+
   }
 
 }

@@ -5,15 +5,21 @@
             "branches": [
                 {
                     "location": "Weizman St 20, Giv'atayim",
-                    "branchName": "Givatayim"
+                    "branchName": "Givatayim",
+                    "latitude":"32.0737329",
+                    "longitude":"34.8084662"
                 },
                 {
                     "location": "Derech Menachem Begin 132, Tel Aviv-Yafo",
-                    "branchName": "Tel-Aviv,Azrieli"
+                    "branchName": "Tel-Aviv,Azrieli",
+                    "latitude":"32.0740769",
+                    "longitude":"34.79220280000004"
                 },
                 {
                     "location": "Yigal Alon St 76, Tel Aviv-Yafo",
-                    "branchName": "Tel-Aviv"
+                    "branchName": "Tel-Aviv",
+                    "latitude":"32.0652457",
+                    "longitude":"34.79263270000001"
                 }
             ]
         },
@@ -22,15 +28,21 @@
             "branches": [
                 {
                     "location": "Dizengoff St 224, Tel Aviv-Yafo",
-                    "branchName": "Tel-Aviv,Dizengof"
+                    "branchName": "Tel-Aviv,Dizengof",
+                    "latitude":"32.0886258",
+                    "longitude":"34.77547870000001"
                 },
                 {
                     "location": "Kdoshei HaShoa St 22, Ganei Tikva",
-                    "branchName": "Ganie-Tikva"
+                    "branchName": "Ganie-Tikva",
+                    "latitude":"32.0591635",
+                    "longitude":"34.8792995"
                 },
                 {
                     "location": "Tsvi Frank St 39, Rishon LeTsiyon",
-                    "branchName": "Rishon LeTsiyon"
+                    "branchName": "Rishon LeTsiyon",
+                    "latitude":"31.9705484",
+                    "longitude":"34.81223339999997"
                 }
             ]
         },
@@ -39,15 +51,21 @@
             "branches": [
                 {
                     "location": "Ha-Sivim St 37, Petah Tikva",
-                    "branchName": "Petah-Tikva"
+                    "branchName": "Petah-Tikva",
+                    "latitude":"32.0879306",
+                    "longitude":"34.85675749999996"
                 },
                 {
                     "location": "Ha-Amal St 20, Bat Yam",
-                    "branchName": "Bat-Yam"
+                    "branchName": "Bat-Yam",
+                    "latitude":"32.0056199",
+                    "longitude":"32.0056199,34.74778749999996"
                 },
                 {
                     "location": "Yaldei Teheran St 3, Rishon LeTsiyon",
-                    "branchName": "Rishon-LeTsyoin"
+                    "branchName": "Rishon-LeTsyoin",
+                    "latitude":"31.9839608",
+                    "longitude":"34.77087749999998"
                 }
             ]
         },
@@ -56,15 +74,21 @@
             "branches": [
                 {
                     "location": "Ahad Ha'Am St 9, Tel Aviv-Yafo",
-                    "branchName": "Tel-Aviv,Hashalom"
+                    "branchName": "Tel-Aviv,Hashalom",
+                    "latitude":"32.0637223",
+                    "longitude":"34.7696201"
                 },
                 {
                     "location": "Katzenelson St 124, Giv'atayim",
-                    "branchName": " Giv'atayim"
+                    "branchName": " Giv'atayim",
+                    "latitude":"32.0765518",
+                    "longitude":"34.815604699999994"
                 },
                 {
                     "location": "Ze'ev Jabotinsky Rd 86, Ramat Gan",
-                    "branchName": " Ramat Gan"
+                    "branchName": " Ramat Gan",
+                    "latitude":"32.0879734",
+                    "longitude":"32.0879734,34.81441380000001"
                 }
             ]
         }
