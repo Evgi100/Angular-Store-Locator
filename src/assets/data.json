@@ -1,0 +1,72 @@
+{
+    "chains": [
+        {
+            "name": "Supersal",
+            "branches": [
+                {
+                    "location": "Weizman St 20, Giv'atayim",
+                    "branchName": "Givatayim"
+                },
+                {
+                    "location": "Derech Menachem Begin 132, Tel Aviv-Yafo",
+                    "branchName": "Tel-Aviv,Azrieli"
+                },
+                {
+                    "location": "Yigal Alon St 76, Tel Aviv-Yafo",
+                    "branchName": "Tel-Aviv"
+                }
+            ]
+        },
+        {
+            "name": "Victory",
+            "branches": [
+                {
+                    "location": "Dizengoff St 224, Tel Aviv-Yafo",
+                    "branchName": "Tel-Aviv,Dizengof"
+                },
+                {
+                    "location": "Kdoshei HaShoa St 22, Ganei Tikva",
+                    "branchName": "Ganie-Tikva"
+                },
+                {
+                    "location": "Tsvi Frank St 39, Rishon LeTsiyon",
+                    "branchName": "Rishon LeTsiyon"
+                }
+            ]
+        },
+        {
+            "name": "Rami-Levi",
+            "branches": [
+                {
+                    "location": "Ha-Sivim St 37, Petah Tikva",
+                    "branchName": "Petah-Tikva"
+                },
+                {
+                    "location": "Ha-Amal St 20, Bat Yam",
+                    "branchName": "Bat-Yam"
+                },
+                {
+                    "location": "Yaldei Teheran St 3, Rishon LeTsiyon",
+                    "branchName": "Rishon-LeTsyoin"
+                }
+            ]
+        },
+        {
+            "name": "AM-PM",
+            "branches": [
+                {
+                    "location": "Ahad Ha'Am St 9, Tel Aviv-Yafo",
+                    "branchName": "Tel-Aviv,Hashalom"
+                },
+                {
+                    "location": "Katzenelson St 124, Giv'atayim",
+                    "branchName": " Giv'atayim"
+                },
+                {
+                    "location": "Ze'ev Jabotinsky Rd 86, Ramat Gan",
+                    "branchName": " Ramat Gan"
+                }
+            ]
+        }
+    ]
+}
